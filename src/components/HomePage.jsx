@@ -1,16 +1,18 @@
-import Footer from "./Footer";
-import Navbar from "./Navbar";
-import Sidebar from "./Sidebar";
 import List from "./List";
 
 export default function HomePage() {
   return (
     <div>
-      <Navbar />
       <div className="">
+        {/* The Navbar, Footer, and Sidebar components
+         should be displayed on all the pages */}
+        <p>Create new Todo</p>
+        <form>
+          <input type="text" />
+          <input type="checkbox" />
+          <button type="submit">Add</button>
+        </form>
         <List />
-        <Sidebar />
-        <Footer />
       </div>
     </div>
   );
