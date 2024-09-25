@@ -1,23 +1,65 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.gradient-custom {
+  background: linear-gradient(
+    to right,
+    rgba(126, 64, 246, 1),
+    rgba(80, 139, 252, 1)
+  );
 }
-
-.container {
+span a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+span a:hover {
+  color: rgb(184, 182, 200);
+  filter: drop-shadow(5px 5px 10px #000);
+  text-decoration: none;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-container {
+  width: 70vw;
+  max-width: 1280px;
+  max-height: 70vh;
+  overflow: auto;
+  background: rgba(24, 24, 16, 0.2);
+  border-radius: 2em;
+  backdrop-filter: blur(25px);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 1px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 50px;
+}
+input::placeholder {
+  color: white !important;
+}
+.nav-max-container {
+  max-width: 1024px;
+}
+.list-container {
+  background-color: #303030;
+}
+.list-header {
+  text-align: center;
+  color: #fff;
 }
 .card {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
+}
+
+.border-custom {
+  border: 2px solid rgba(255, 255, 255, 0.107);
 }

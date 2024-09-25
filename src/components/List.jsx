@@ -1,18 +1,21 @@
 import React, { useState } from "react";
-import data from "../data.json";
+
 import Card from "./Card";
+import { ListGroupItem } from "react-bootstrap";
 
-export default function List() {
-  const [todos, setTodos] = useState(data);
-  function removeHamdler(id) {
-    setTodos((prevTodos) => prevTodos.filter((todo) => todo.id !== id));
-  }
-
+export default function List({ todos, removeHandler, toggleCompletion }) {
   return (
-    <div className="container">
+    <>
       {todos.map((todo) => {
-        return <Card todo={todo} removeHamdler={removeHamdler} />;
+        return (
+          <Card
+            key={todo.id}
+            todo={todo}
+            removeHandler={removeHandler}
+            toggleCompletion={toggleCompletion}
+          />
+        );
       })}
-    </div>
+    </>
   );
 }
