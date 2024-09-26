@@ -1,8 +1,66 @@
-# React + Vite
-(To Edit)
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ToDojo
 
-Currently, two official plugins are available:
+## [Click to visit...](https://jorgeberrizbeitia.github.io/kraken-brigade-ES6)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Description
+
+ToDojo allows users to create their own list of tasks to keep them on track and remind them not to forget to do them. 
+
+# Main Functionalities
+
+- Create a new task.
+- Delete an existing task.
+- Mark the task as completed.
+- Navigate the webpage using the navigation.
+- View the team that worked on the project.
+- View the achievements of this team. 
+- Send a message to the team.
+- Login in the program.
+
+# Technologies Used
+
+- JSX
+- CSS
+- JavaScript
+- React.JS
+- React Router
+- Bootstrap
+- Bootstrap Components
+- Fetch data
+
+# States
+
+- Home Page
+- Dashboard Page
+- About Page 
+- Team Page
+- Contact
+- Login Page
+- 404 Error Page
+
+# Proyect Structure
+
+## App.jsx
+
+- Header component
+- Rotes for application
+
+## Pages
+
+- About Page
+- Contact Page
+- Dashboard Page
+- Home Page
+- Ligon Page
+- NotFound Page
+    - 
+- Team Page
+    - 
+## Components
+
+- Navbar
+- Card
+- Footer
+- List
+
