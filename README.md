@@ -42,21 +42,17 @@ ToDojo allows users to create their own list of tasks to keep them on track and 
 # Proyect Structure
 
 ## App.jsx
-
 - Header component
 - Rotes for application
 
 ## Pages
-
 - About Page
 - Contact Page
 - Dashboard Page
 - Home Page
 - Ligon Page
 - NotFound Page
-    - 
 - Team Page
-    - 
 ## Components
 
 - Navbar
