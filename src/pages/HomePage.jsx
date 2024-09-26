@@ -85,7 +85,7 @@ export default function HomePage() {
             variant="outline-secondary"
             id="button-addon2"
             type="submit"
-            className="btn btn-outline-light"
+            className="btn btn-outline-light bg-transparent"
           >
             Add
           </Button>
